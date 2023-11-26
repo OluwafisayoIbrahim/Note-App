@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import { Container } from "react-bootstrap";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { useLocalStorage } from "./useLocalStorage";
@@ -8,6 +9,8 @@ import { NoteLayout } from "./NoteLayout";
 import { Note } from "./Note";
 import { EditNote } from "./EditNote";
 import { NewNote } from "./NewNote";
+
+
 
 
 
